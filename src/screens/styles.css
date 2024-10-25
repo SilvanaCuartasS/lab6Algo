@@ -11,7 +11,7 @@ h1  {
     display: flex;
     margin-top: 7rem;
     justify-content: center;
-    gap: 15.5rem;
+    gap: 13rem;
 }
 
 #items p  {
@@ -23,7 +23,7 @@ h1  {
 }
 #fecha  {
     display: inline-block; 
-    max-width: 150px; 
+    max-width: 300px; 
     overflow: hidden; 
     white-space: nowrap; 
     text-overflow: ellipsis;
@@ -97,4 +97,11 @@ button:hover {
 }
 section  {
     background-color: none;
+}
+
+#svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
