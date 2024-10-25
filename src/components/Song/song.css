@@ -1,0 +1,48 @@
+.perfil {
+    display: flex;
+    width: 35rem;
+
+}
+#img { 
+    width: 14%;
+}
+.perfil img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+.song  {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.texts  {
+    width: 87%;
+    display: block;
+    align-items: center;
+    padding: 0.9rem;
+}
+.texts p  {
+    margin: 0;;
+   
+    
+}
+#autor  {
+    color: #cccccca9;
+}
+
+.album, .dateadded, .duracion  {
+    color: #ccccccc6 ;
+}
+.album  {
+    margin-left: 2rem;
+    width: 300px;
+}
+.dateadded   {
+    width: 300px;
+}
+.duracion { 
+    width: 100px;
+}

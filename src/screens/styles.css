@@ -1,0 +1,100 @@
+*   {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+h1  {
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+#items  {
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+    gap: 15.5rem;
+}
+
+#items p  {
+    color: #ccccccd8;
+    margin: 0;
+}
+#titulo  {
+    width: 350px;
+}
+#fecha  {
+    display: inline-block; 
+    max-width: 150px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
+hr   {
+    width: 87.5%;
+    border: 0.5px solid #cccccc98;
+    margin-bottom: 1rem;
+    margin-left: 5.8rem;
+}
+input  {
+    padding: 0.3rem;
+    background: none;
+    border: none; 
+    border-bottom: 1px solid #cccccca9; 
+    font-size: 16px;
+    color: white;
+    width: 200px; 
+    outline: none;
+    cursor: pointer; 
+}
+input:hover { 
+    border-bottom: 1px solid white; 
+}
+input::placeholder  {
+    color: #cccccca9;
+}
+input:hover::placeholder {
+    color: white;
+}
+.createSong  {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+button  {
+    background-color: #5067DD;
+    color: #16171F;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    width: 120px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #3b50b3; 
+    color: white; 
+    box-shadow: 0 6px 8px rgba(255, 255, 255, 0.15);
+}
+#photo {
+    display: none;
+}
+
+#customLabel {
+    font-size: 18px;
+    color:  #cccccca9;
+    border-bottom: 1px solid #cccccca9; 
+    padding: 0.3rem;
+    width: 200px;
+    cursor: pointer;
+    display: inline-block;
+ 
+}
+#customLabel:hover {
+    color: white;
+    border-bottom: 1px solid white; 
+}
+section  {
+    background-color: none;
+}
